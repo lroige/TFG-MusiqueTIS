@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<ImSoundFont xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SoundFontName>Piano Bechstein</SoundFontName>
+  <PatchCount>1</PatchCount>
+  <WaveCount>6</WaveCount>
+  <WaveSize>947764</WaveSize>
+  <DefaultBankNumber>0</DefaultBankNumber>
+  <DrumKitBankNumber>-1</DrumKitBankNumber>
+  <KeepAllPatchs>false</KeepAllPatchs>
+  <KeepAllZones>false</KeepAllZones>
+  <RemoveUnusedWaves>true</RemoveUnusedWaves>
+  <Banks>
+    <ImBank>
+      <BankNumber>0</BankNumber>
+      <Presets>
+        <ImPreset>
+          <Name>Bechstein</Name>
+          <Bank>0</Bank>
+          <Patch>0</Patch>
+          <Key>0</Key>
+          <Instruments>
+            <ImInstrument>
+              <KeyStart>0</KeyStart>
+              <KeyEnd>0</KeyEnd>
+              <HasKey>false</HasKey>
+              <VelStart>0</VelStart>
+              <VelEnd>0</VelEnd>
+              <HasVel>false</HasVel>
+              <Pan>0</Pan>
+              <RootKey>0</RootKey>
+              <Samples>
+                <ImSample>
+                  <KeyStart>56</KeyStart>
+                  <KeyEnd>58</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>0</Pan>
+                  <IsLoop>false</IsLoop>
+                  <OriginalPitch>57</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>0</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>1</Attenuation>
+                  <WaveFile>a3.wav-(2).wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>69</KeyStart>
+                  <KeyEnd>70</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>0</Pan>
+                  <IsLoop>false</IsLoop>
+                  <OriginalPitch>69</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>0</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>1</Attenuation>
+                  <WaveFile>a4.wav-(2).wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>60</KeyStart>
+                  <KeyEnd>61</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>0</Pan>
+                  <IsLoop>false</IsLoop>
+                  <OriginalPitch>60</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>0</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>1</Attenuation>
+                  <WaveFile>c3.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>62</KeyStart>
+                  <KeyEnd>63</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>0</Pan>
+                  <IsLoop>false</IsLoop>
+                  <OriginalPitch>62</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>0</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>1</Attenuation>
+                  <WaveFile>d3.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>64</KeyStart>
+                  <KeyEnd>65</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>0</Pan>
+                  <IsLoop>false</IsLoop>
+                  <OriginalPitch>64</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>0</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>1</Attenuation>
+                  <WaveFile>e3.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>66</KeyStart>
+                  <KeyEnd>68</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>0</Pan>
+                  <IsLoop>false</IsLoop>
+                  <OriginalPitch>67</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>0</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>1</Attenuation>
+                  <WaveFile>g3.wav</WaveFile>
+                </ImSample>
+              </Samples>
+              <HasSample>false</HasSample>
+            </ImInstrument>
+          </Instruments>
+        </ImPreset>
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+      </Presets>
+    </ImBank>
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+  </Banks>
+</ImSoundFont>

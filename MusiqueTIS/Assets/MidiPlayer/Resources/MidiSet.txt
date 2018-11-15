@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<MidiSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SoundFonts>
+    <SoundFontInfo>
+      <Name>Piano Bechstein</Name>
+      <MultiWaves>true</MultiWaves>
+      <Panoramic>true</Panoramic>
+      <DefaultBankNumber>0</DefaultBankNumber>
+      <DrumKitBankNumber>-1</DrumKitBankNumber>
+      <SF2Path>/Users/lauraroige/Library/Application Support/DefaultCompany/MusiqueTIS/SoundFont/Piano Bechstein.sf2</SF2Path>
+    </SoundFontInfo>
+  </SoundFonts>
+  <ActiveSounFontInfo>
+    <Name>Piano Bechstein</Name>
+    <MultiWaves>true</MultiWaves>
+    <Panoramic>true</Panoramic>
+    <DefaultBankNumber>0</DefaultBankNumber>
+    <DrumKitBankNumber>-1</DrumKitBankNumber>
+    <SF2Path>/Users/lauraroige/Library/Application Support/DefaultCompany/MusiqueTIS/SoundFont/Piano Bechstein.sf2</SF2Path>
+  </ActiveSounFontInfo>
+  <MidiFiles>
+    <string>dictation</string>
+  </MidiFiles>
+</MidiSet>
