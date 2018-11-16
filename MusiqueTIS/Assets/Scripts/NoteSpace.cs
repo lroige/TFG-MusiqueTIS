@@ -25,14 +25,14 @@ public class NoteSpace : MonoBehaviour
     private void OnMouseDown()
     {
         mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        mousePosition.y = mousePosition.y + 2;
+        mousePosition = mousePosition - new Vector2(this.transform.position.x, this.transform.position.y);
         Debug.Log(mousePosition);
         DrawNote();
     }
 
     public void DrawNote()
     {
-        Vector2 position = new Vector2(transform.position.x + (float)0.8, mousePosition[1]);
+        Vector2 position = new Vector2(transform.position.x + (float)0.05, mousePosition[1]);
         height = mousePosition[1] - Mathf.Floor(mousePosition[1]);
 
         //Delete note if already written
@@ -56,15 +56,16 @@ public class NoteSpace : MonoBehaviour
             position[1] = Mathf.Ceil(position[1]);
         }
 
-        //Note position in the staff (0 corresponding to A2, 0.5 to B2, etc.)
-        isWritten = position[1] + 3;
+        //Note position in the staff (0 corresponding to G2, 0.5 to A2, etc.)
+        isWritten = position[1] + (float)0.5;
+        Debug.Log(isWritten);
 
         //Activate renderer of the tile to add additional line if the note is outside the staff
-        if (isWritten < 1.6){
+        if (isWritten < 1.1){
             backgroundTiles[1].GetComponent<Renderer>().enabled = true;
-        } if (isWritten < 0.6){
+        } if (isWritten < 0.1){
             backgroundTiles[0].GetComponent<Renderer>().enabled = true;
-        } else if (isWritten > 7.4){
+        } else if (isWritten > 6.9){
             backgroundTiles[7].GetComponent<Renderer>().enabled = true;
         }
 
@@ -76,6 +77,7 @@ public class NoteSpace : MonoBehaviour
          */
 
         //Instanciem la imatge de la nota
+        position = new Vector2(this.transform.position.x, position.y + this.transform.position.y);
         sprite = Instantiate(noteSprite, position, Quaternion.identity);
         sprite.transform.parent = this.transform;
     }
