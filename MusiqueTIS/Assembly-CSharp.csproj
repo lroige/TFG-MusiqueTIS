@@ -143,12 +143,12 @@
     <Compile Include="Assets\Scripts\NoteSpace.cs" />
     <Compile Include="Assets\Scripts\Score.cs" />
     <None Include="Assets\MidiPlayer\Resources\SongDB\Hummm.txt" />
+    <None Include="Assets\MidiPlayer\Resources\SoundfontsDB\GeneralUser GS v1.471\GeneralUser GS v1.471.txt" />
     <None Include="Assets\MidiPlayer\Resources\SongDB\saxy.txt" />
     <None Include="Assets\MidiPlayer\Resources\SongDB\Marimba.txt" />
     <None Include="Assets\MidiPlayer\Resources\SongDB\BasicPiano.txt" />
     <None Include="Assets\MidiPlayer\Resources\MidiSet.txt" />
     <None Include="Assets\MidiPlayer\Scripts\NAudio License.txt" />
-    <None Include="Assets\MidiPlayer\Resources\SoundfontsDB\Piano Bechstein\Piano Bechstein.txt" />
     <None Include="Assets\MidiPlayer\Scripts\NAudio Midi\NAudio License.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/lauraroige/TFG-MusiqueTIS/MusiqueTIS/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>

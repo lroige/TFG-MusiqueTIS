@@ -61,11 +61,11 @@ public class NoteSpace : MonoBehaviour
         Debug.Log(isWritten);
 
         //Activate renderer of the tile to add additional line if the note is outside the staff
-        if (isWritten < 1.1){
+        if (isWritten <= 1.5){
             backgroundTiles[1].GetComponent<Renderer>().enabled = true;
-        } if (isWritten < 0.1){
+        } if (isWritten <= 0.5){
             backgroundTiles[0].GetComponent<Renderer>().enabled = true;
-        } else if (isWritten > 6.9){
+        } else if (isWritten >= 7.5){
             backgroundTiles[7].GetComponent<Renderer>().enabled = true;
         }
 

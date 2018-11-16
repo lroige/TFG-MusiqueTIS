@@ -1,0 +1,1515 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<ImSoundFont xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SoundFontName>GeneralUser GS v1.471</SoundFontName>
+  <PatchCount>1</PatchCount>
+  <WaveCount>4</WaveCount>
+  <WaveSize>599968</WaveSize>
+  <DefaultBankNumber>0</DefaultBankNumber>
+  <DrumKitBankNumber>128</DrumKitBankNumber>
+  <KeepAllPatchs>false</KeepAllPatchs>
+  <KeepAllZones>false</KeepAllZones>
+  <RemoveUnusedWaves>true</RemoveUnusedWaves>
+  <Banks>
+    <ImBank>
+      <BankNumber>0</BankNumber>
+      <Presets>
+        <ImPreset>
+          <Name>Stereo Grand</Name>
+          <Bank>0</Bank>
+          <Patch>0</Patch>
+          <Key>0</Key>
+          <Instruments>
+            <ImInstrument>
+              <KeyStart>51</KeyStart>
+              <KeyEnd>65</KeyEnd>
+              <HasKey>true</HasKey>
+              <VelStart>0</VelStart>
+              <VelEnd>49</VelEnd>
+              <HasVel>true</HasVel>
+              <Pan>0</Pan>
+              <RootKey>0</RootKey>
+              <Samples>
+                <ImSample>
+                  <KeyStart>56</KeyStart>
+                  <KeyEnd>57</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>-60</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>58</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>3</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.3548134</Attenuation>
+                  <WaveFile>Grand-Piano-Ad3.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>58</KeyStart>
+                  <KeyEnd>60</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>-20</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>60</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>4</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.398107171</Attenuation>
+                  <WaveFile>Grand-Piano-C4.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>61</KeyStart>
+                  <KeyEnd>64</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>20</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>63</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>8</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.398107171</Attenuation>
+                  <WaveFile>Grand-Piano-Dd3.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>65</KeyStart>
+                  <KeyEnd>69</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>60</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>67</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>2</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.5011872</Attenuation>
+                  <WaveFile>Grand-Piano-Fd4.wav</WaveFile>
+                </ImSample>
+              </Samples>
+              <HasSample>false</HasSample>
+            </ImInstrument>
+            <ImInstrument>
+              <KeyStart>51</KeyStart>
+              <KeyEnd>65</KeyEnd>
+              <HasKey>true</HasKey>
+              <VelStart>50</VelStart>
+              <VelEnd>65</VelEnd>
+              <HasVel>true</HasVel>
+              <Pan>0</Pan>
+              <RootKey>0</RootKey>
+              <Samples>
+                <ImSample>
+                  <KeyStart>56</KeyStart>
+                  <KeyEnd>57</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>-60</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>58</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>3</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.3548134</Attenuation>
+                  <WaveFile>Grand-Piano-Ad3.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>58</KeyStart>
+                  <KeyEnd>60</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>-20</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>60</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>4</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.398107171</Attenuation>
+                  <WaveFile>Grand-Piano-C4.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>61</KeyStart>
+                  <KeyEnd>64</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>20</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>63</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>8</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.398107171</Attenuation>
+                  <WaveFile>Grand-Piano-Dd3.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>65</KeyStart>
+                  <KeyEnd>69</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>60</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>67</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>2</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.5011872</Attenuation>
+                  <WaveFile>Grand-Piano-Fd4.wav</WaveFile>
+                </ImSample>
+              </Samples>
+              <HasSample>false</HasSample>
+            </ImInstrument>
+            <ImInstrument>
+              <KeyStart>51</KeyStart>
+              <KeyEnd>65</KeyEnd>
+              <HasKey>true</HasKey>
+              <VelStart>66</VelStart>
+              <VelEnd>79</VelEnd>
+              <HasVel>true</HasVel>
+              <Pan>0</Pan>
+              <RootKey>0</RootKey>
+              <Samples>
+                <ImSample>
+                  <KeyStart>56</KeyStart>
+                  <KeyEnd>57</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>-60</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>58</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>3</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.3548134</Attenuation>
+                  <WaveFile>Grand-Piano-Ad3.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>58</KeyStart>
+                  <KeyEnd>60</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>-20</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>60</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>4</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.398107171</Attenuation>
+                  <WaveFile>Grand-Piano-C4.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>61</KeyStart>
+                  <KeyEnd>64</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>20</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>63</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>8</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.398107171</Attenuation>
+                  <WaveFile>Grand-Piano-Dd3.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>65</KeyStart>
+                  <KeyEnd>69</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>60</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>67</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>2</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.5011872</Attenuation>
+                  <WaveFile>Grand-Piano-Fd4.wav</WaveFile>
+                </ImSample>
+              </Samples>
+              <HasSample>false</HasSample>
+            </ImInstrument>
+            <ImInstrument>
+              <KeyStart>51</KeyStart>
+              <KeyEnd>65</KeyEnd>
+              <HasKey>true</HasKey>
+              <VelStart>80</VelStart>
+              <VelEnd>91</VelEnd>
+              <HasVel>true</HasVel>
+              <Pan>0</Pan>
+              <RootKey>0</RootKey>
+              <Samples>
+                <ImSample>
+                  <KeyStart>56</KeyStart>
+                  <KeyEnd>57</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>-60</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>58</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>3</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.3548134</Attenuation>
+                  <WaveFile>Grand-Piano-Ad3.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>58</KeyStart>
+                  <KeyEnd>60</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>-20</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>60</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>4</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.398107171</Attenuation>
+                  <WaveFile>Grand-Piano-C4.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>61</KeyStart>
+                  <KeyEnd>64</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>20</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>63</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>8</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.398107171</Attenuation>
+                  <WaveFile>Grand-Piano-Dd3.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>65</KeyStart>
+                  <KeyEnd>69</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>60</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>67</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>2</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.5011872</Attenuation>
+                  <WaveFile>Grand-Piano-Fd4.wav</WaveFile>
+                </ImSample>
+              </Samples>
+              <HasSample>false</HasSample>
+            </ImInstrument>
+            <ImInstrument>
+              <KeyStart>51</KeyStart>
+              <KeyEnd>65</KeyEnd>
+              <HasKey>true</HasKey>
+              <VelStart>92</VelStart>
+              <VelEnd>101</VelEnd>
+              <HasVel>true</HasVel>
+              <Pan>0</Pan>
+              <RootKey>0</RootKey>
+              <Samples>
+                <ImSample>
+                  <KeyStart>56</KeyStart>
+                  <KeyEnd>57</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>-60</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>58</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>3</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.3548134</Attenuation>
+                  <WaveFile>Grand-Piano-Ad3.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>58</KeyStart>
+                  <KeyEnd>60</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>-20</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>60</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>4</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.398107171</Attenuation>
+                  <WaveFile>Grand-Piano-C4.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>61</KeyStart>
+                  <KeyEnd>64</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>20</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>63</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>8</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.398107171</Attenuation>
+                  <WaveFile>Grand-Piano-Dd3.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>65</KeyStart>
+                  <KeyEnd>69</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>60</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>67</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>2</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.5011872</Attenuation>
+                  <WaveFile>Grand-Piano-Fd4.wav</WaveFile>
+                </ImSample>
+              </Samples>
+              <HasSample>false</HasSample>
+            </ImInstrument>
+            <ImInstrument>
+              <KeyStart>51</KeyStart>
+              <KeyEnd>65</KeyEnd>
+              <HasKey>true</HasKey>
+              <VelStart>102</VelStart>
+              <VelEnd>110</VelEnd>
+              <HasVel>true</HasVel>
+              <Pan>0</Pan>
+              <RootKey>0</RootKey>
+              <Samples>
+                <ImSample>
+                  <KeyStart>56</KeyStart>
+                  <KeyEnd>57</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>-60</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>58</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>3</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.3548134</Attenuation>
+                  <WaveFile>Grand-Piano-Ad3.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>58</KeyStart>
+                  <KeyEnd>60</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>-20</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>60</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>4</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.398107171</Attenuation>
+                  <WaveFile>Grand-Piano-C4.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>61</KeyStart>
+                  <KeyEnd>64</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>20</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>63</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>8</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.398107171</Attenuation>
+                  <WaveFile>Grand-Piano-Dd3.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>65</KeyStart>
+                  <KeyEnd>69</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>60</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>67</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>2</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.5011872</Attenuation>
+                  <WaveFile>Grand-Piano-Fd4.wav</WaveFile>
+                </ImSample>
+              </Samples>
+              <HasSample>false</HasSample>
+            </ImInstrument>
+            <ImInstrument>
+              <KeyStart>51</KeyStart>
+              <KeyEnd>65</KeyEnd>
+              <HasKey>true</HasKey>
+              <VelStart>111</VelStart>
+              <VelEnd>119</VelEnd>
+              <HasVel>true</HasVel>
+              <Pan>0</Pan>
+              <RootKey>0</RootKey>
+              <Samples>
+                <ImSample>
+                  <KeyStart>56</KeyStart>
+                  <KeyEnd>57</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>-60</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>58</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>3</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.3548134</Attenuation>
+                  <WaveFile>Grand-Piano-Ad3.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>58</KeyStart>
+                  <KeyEnd>60</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>-20</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>60</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>4</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.398107171</Attenuation>
+                  <WaveFile>Grand-Piano-C4.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>61</KeyStart>
+                  <KeyEnd>64</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>20</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>63</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>8</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.398107171</Attenuation>
+                  <WaveFile>Grand-Piano-Dd3.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>65</KeyStart>
+                  <KeyEnd>69</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>60</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>67</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>2</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.5011872</Attenuation>
+                  <WaveFile>Grand-Piano-Fd4.wav</WaveFile>
+                </ImSample>
+              </Samples>
+              <HasSample>false</HasSample>
+            </ImInstrument>
+            <ImInstrument>
+              <KeyStart>51</KeyStart>
+              <KeyEnd>65</KeyEnd>
+              <HasKey>true</HasKey>
+              <VelStart>120</VelStart>
+              <VelEnd>127</VelEnd>
+              <HasVel>true</HasVel>
+              <Pan>0</Pan>
+              <RootKey>0</RootKey>
+              <Samples>
+                <ImSample>
+                  <KeyStart>56</KeyStart>
+                  <KeyEnd>57</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>-60</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>58</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>3</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.3548134</Attenuation>
+                  <WaveFile>Grand-Piano-Ad3.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>58</KeyStart>
+                  <KeyEnd>60</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>-20</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>60</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>4</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.398107171</Attenuation>
+                  <WaveFile>Grand-Piano-C4.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>61</KeyStart>
+                  <KeyEnd>64</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>20</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>63</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>8</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.398107171</Attenuation>
+                  <WaveFile>Grand-Piano-Dd3.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>65</KeyStart>
+                  <KeyEnd>69</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>60</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>67</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>2</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.5011872</Attenuation>
+                  <WaveFile>Grand-Piano-Fd4.wav</WaveFile>
+                </ImSample>
+              </Samples>
+              <HasSample>false</HasSample>
+            </ImInstrument>
+            <ImInstrument>
+              <KeyStart>66</KeyStart>
+              <KeyEnd>80</KeyEnd>
+              <HasKey>true</HasKey>
+              <VelStart>0</VelStart>
+              <VelEnd>49</VelEnd>
+              <HasVel>true</HasVel>
+              <Pan>0</Pan>
+              <RootKey>0</RootKey>
+              <Samples>
+                <ImSample>
+                  <KeyStart>56</KeyStart>
+                  <KeyEnd>57</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>-60</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>58</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>3</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.3548134</Attenuation>
+                  <WaveFile>Grand-Piano-Ad3.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>58</KeyStart>
+                  <KeyEnd>60</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>-20</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>60</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>4</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.398107171</Attenuation>
+                  <WaveFile>Grand-Piano-C4.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>61</KeyStart>
+                  <KeyEnd>64</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>20</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>63</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>8</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.398107171</Attenuation>
+                  <WaveFile>Grand-Piano-Dd3.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>65</KeyStart>
+                  <KeyEnd>69</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>60</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>67</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>2</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.5011872</Attenuation>
+                  <WaveFile>Grand-Piano-Fd4.wav</WaveFile>
+                </ImSample>
+              </Samples>
+              <HasSample>false</HasSample>
+            </ImInstrument>
+            <ImInstrument>
+              <KeyStart>66</KeyStart>
+              <KeyEnd>80</KeyEnd>
+              <HasKey>true</HasKey>
+              <VelStart>50</VelStart>
+              <VelEnd>65</VelEnd>
+              <HasVel>true</HasVel>
+              <Pan>0</Pan>
+              <RootKey>0</RootKey>
+              <Samples>
+                <ImSample>
+                  <KeyStart>56</KeyStart>
+                  <KeyEnd>57</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>-60</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>58</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>3</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.3548134</Attenuation>
+                  <WaveFile>Grand-Piano-Ad3.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>58</KeyStart>
+                  <KeyEnd>60</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>-20</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>60</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>4</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.398107171</Attenuation>
+                  <WaveFile>Grand-Piano-C4.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>61</KeyStart>
+                  <KeyEnd>64</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>20</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>63</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>8</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.398107171</Attenuation>
+                  <WaveFile>Grand-Piano-Dd3.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>65</KeyStart>
+                  <KeyEnd>69</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>60</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>67</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>2</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.5011872</Attenuation>
+                  <WaveFile>Grand-Piano-Fd4.wav</WaveFile>
+                </ImSample>
+              </Samples>
+              <HasSample>false</HasSample>
+            </ImInstrument>
+            <ImInstrument>
+              <KeyStart>66</KeyStart>
+              <KeyEnd>80</KeyEnd>
+              <HasKey>true</HasKey>
+              <VelStart>66</VelStart>
+              <VelEnd>79</VelEnd>
+              <HasVel>true</HasVel>
+              <Pan>0</Pan>
+              <RootKey>0</RootKey>
+              <Samples>
+                <ImSample>
+                  <KeyStart>56</KeyStart>
+                  <KeyEnd>57</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>-60</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>58</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>3</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.3548134</Attenuation>
+                  <WaveFile>Grand-Piano-Ad3.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>58</KeyStart>
+                  <KeyEnd>60</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>-20</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>60</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>4</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.398107171</Attenuation>
+                  <WaveFile>Grand-Piano-C4.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>61</KeyStart>
+                  <KeyEnd>64</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>20</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>63</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>8</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.398107171</Attenuation>
+                  <WaveFile>Grand-Piano-Dd3.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>65</KeyStart>
+                  <KeyEnd>69</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>60</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>67</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>2</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.5011872</Attenuation>
+                  <WaveFile>Grand-Piano-Fd4.wav</WaveFile>
+                </ImSample>
+              </Samples>
+              <HasSample>false</HasSample>
+            </ImInstrument>
+            <ImInstrument>
+              <KeyStart>66</KeyStart>
+              <KeyEnd>80</KeyEnd>
+              <HasKey>true</HasKey>
+              <VelStart>80</VelStart>
+              <VelEnd>91</VelEnd>
+              <HasVel>true</HasVel>
+              <Pan>0</Pan>
+              <RootKey>0</RootKey>
+              <Samples>
+                <ImSample>
+                  <KeyStart>56</KeyStart>
+                  <KeyEnd>57</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>-60</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>58</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>3</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.3548134</Attenuation>
+                  <WaveFile>Grand-Piano-Ad3.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>58</KeyStart>
+                  <KeyEnd>60</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>-20</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>60</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>4</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.398107171</Attenuation>
+                  <WaveFile>Grand-Piano-C4.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>61</KeyStart>
+                  <KeyEnd>64</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>20</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>63</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>8</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.398107171</Attenuation>
+                  <WaveFile>Grand-Piano-Dd3.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>65</KeyStart>
+                  <KeyEnd>69</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>60</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>67</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>2</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.5011872</Attenuation>
+                  <WaveFile>Grand-Piano-Fd4.wav</WaveFile>
+                </ImSample>
+              </Samples>
+              <HasSample>false</HasSample>
+            </ImInstrument>
+            <ImInstrument>
+              <KeyStart>66</KeyStart>
+              <KeyEnd>80</KeyEnd>
+              <HasKey>true</HasKey>
+              <VelStart>92</VelStart>
+              <VelEnd>101</VelEnd>
+              <HasVel>true</HasVel>
+              <Pan>0</Pan>
+              <RootKey>0</RootKey>
+              <Samples>
+                <ImSample>
+                  <KeyStart>56</KeyStart>
+                  <KeyEnd>57</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>-60</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>58</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>3</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.3548134</Attenuation>
+                  <WaveFile>Grand-Piano-Ad3.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>58</KeyStart>
+                  <KeyEnd>60</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>-20</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>60</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>4</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.398107171</Attenuation>
+                  <WaveFile>Grand-Piano-C4.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>61</KeyStart>
+                  <KeyEnd>64</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>20</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>63</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>8</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.398107171</Attenuation>
+                  <WaveFile>Grand-Piano-Dd3.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>65</KeyStart>
+                  <KeyEnd>69</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>60</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>67</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>2</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.5011872</Attenuation>
+                  <WaveFile>Grand-Piano-Fd4.wav</WaveFile>
+                </ImSample>
+              </Samples>
+              <HasSample>false</HasSample>
+            </ImInstrument>
+            <ImInstrument>
+              <KeyStart>66</KeyStart>
+              <KeyEnd>80</KeyEnd>
+              <HasKey>true</HasKey>
+              <VelStart>102</VelStart>
+              <VelEnd>110</VelEnd>
+              <HasVel>true</HasVel>
+              <Pan>0</Pan>
+              <RootKey>0</RootKey>
+              <Samples>
+                <ImSample>
+                  <KeyStart>56</KeyStart>
+                  <KeyEnd>57</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>-60</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>58</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>3</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.3548134</Attenuation>
+                  <WaveFile>Grand-Piano-Ad3.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>58</KeyStart>
+                  <KeyEnd>60</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>-20</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>60</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>4</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.398107171</Attenuation>
+                  <WaveFile>Grand-Piano-C4.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>61</KeyStart>
+                  <KeyEnd>64</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>20</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>63</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>8</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.398107171</Attenuation>
+                  <WaveFile>Grand-Piano-Dd3.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>65</KeyStart>
+                  <KeyEnd>69</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>60</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>67</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>2</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.5011872</Attenuation>
+                  <WaveFile>Grand-Piano-Fd4.wav</WaveFile>
+                </ImSample>
+              </Samples>
+              <HasSample>false</HasSample>
+            </ImInstrument>
+            <ImInstrument>
+              <KeyStart>66</KeyStart>
+              <KeyEnd>80</KeyEnd>
+              <HasKey>true</HasKey>
+              <VelStart>111</VelStart>
+              <VelEnd>119</VelEnd>
+              <HasVel>true</HasVel>
+              <Pan>0</Pan>
+              <RootKey>0</RootKey>
+              <Samples>
+                <ImSample>
+                  <KeyStart>56</KeyStart>
+                  <KeyEnd>57</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>-60</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>58</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>3</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.3548134</Attenuation>
+                  <WaveFile>Grand-Piano-Ad3.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>58</KeyStart>
+                  <KeyEnd>60</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>-20</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>60</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>4</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.398107171</Attenuation>
+                  <WaveFile>Grand-Piano-C4.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>61</KeyStart>
+                  <KeyEnd>64</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>20</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>63</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>8</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.398107171</Attenuation>
+                  <WaveFile>Grand-Piano-Dd3.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>65</KeyStart>
+                  <KeyEnd>69</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>60</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>67</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>2</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.5011872</Attenuation>
+                  <WaveFile>Grand-Piano-Fd4.wav</WaveFile>
+                </ImSample>
+              </Samples>
+              <HasSample>false</HasSample>
+            </ImInstrument>
+            <ImInstrument>
+              <KeyStart>66</KeyStart>
+              <KeyEnd>80</KeyEnd>
+              <HasKey>true</HasKey>
+              <VelStart>120</VelStart>
+              <VelEnd>127</VelEnd>
+              <HasVel>true</HasVel>
+              <Pan>0</Pan>
+              <RootKey>0</RootKey>
+              <Samples>
+                <ImSample>
+                  <KeyStart>56</KeyStart>
+                  <KeyEnd>57</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>-60</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>58</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>3</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.3548134</Attenuation>
+                  <WaveFile>Grand-Piano-Ad3.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>58</KeyStart>
+                  <KeyEnd>60</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>-20</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>60</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>4</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.398107171</Attenuation>
+                  <WaveFile>Grand-Piano-C4.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>61</KeyStart>
+                  <KeyEnd>64</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>20</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>63</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>8</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.398107171</Attenuation>
+                  <WaveFile>Grand-Piano-Dd3.wav</WaveFile>
+                </ImSample>
+                <ImSample>
+                  <KeyStart>65</KeyStart>
+                  <KeyEnd>69</KeyEnd>
+                  <HasKey>true</HasKey>
+                  <VelStart>0</VelStart>
+                  <VelEnd>0</VelEnd>
+                  <HasVel>false</HasVel>
+                  <Pan>60</Pan>
+                  <IsLoop>true</IsLoop>
+                  <OriginalPitch>67</OriginalPitch>
+                  <CoarseTune>0</CoarseTune>
+                  <FineTune>2</FineTune>
+                  <PitchCorrection>0</PitchCorrection>
+                  <Attenuation>0.5011872</Attenuation>
+                  <WaveFile>Grand-Piano-Fd4.wav</WaveFile>
+                </ImSample>
+              </Samples>
+              <HasSample>false</HasSample>
+            </ImInstrument>
+          </Instruments>
+        </ImPreset>
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+        <ImPreset xsi:nil="true" />
+      </Presets>
+    </ImBank>
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+    <ImBank xsi:nil="true" />
+  </Banks>
+</ImSoundFont>
