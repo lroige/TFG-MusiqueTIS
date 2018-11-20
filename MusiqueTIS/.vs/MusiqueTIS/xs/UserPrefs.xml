@@ -2,7 +2,9 @@
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/NoteSpace.cs">
     <Files>
-      <File FileName="Assets/Scripts/NoteSpace.cs" Line="59" Column="51" />
+      <File FileName="Assets/Scripts/NoteSpace.cs" Line="64" Column="46" />
+      <File FileName="Assets/Scripts/Score.cs" Line="22" Column="46" />
+      <File FileName="Assets/Scripts/DictationController.cs" Line="14" Column="26" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

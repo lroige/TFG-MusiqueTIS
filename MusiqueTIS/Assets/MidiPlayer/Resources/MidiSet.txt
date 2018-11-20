@@ -2,23 +2,24 @@
 <MidiSet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SoundFonts>
     <SoundFontInfo>
-      <Name>GeneralUser GS v1.471</Name>
+      <Name>GeneralUser GS SoftSynth v1.44</Name>
       <MultiWaves>true</MultiWaves>
       <Panoramic>true</Panoramic>
       <DefaultBankNumber>0</DefaultBankNumber>
       <DrumKitBankNumber>128</DrumKitBankNumber>
-      <SF2Path>/Users/lauraroige/Library/Application Support/DefaultCompany/MusiqueTIS/SoundFont/GeneralUser GS v1.471.sf2</SF2Path>
+      <SF2Path>/Users/lauraroige/Library/Application Support/DefaultCompany/MusiqueTIS/SoundFont/GeneralUser GS SoftSynth v1.44.sf2</SF2Path>
     </SoundFontInfo>
   </SoundFonts>
   <ActiveSounFontInfo>
-    <Name>GeneralUser GS v1.471</Name>
+    <Name>GeneralUser GS SoftSynth v1.44</Name>
     <MultiWaves>true</MultiWaves>
     <Panoramic>true</Panoramic>
     <DefaultBankNumber>0</DefaultBankNumber>
     <DrumKitBankNumber>128</DrumKitBankNumber>
-    <SF2Path>/Users/lauraroige/Library/Application Support/DefaultCompany/MusiqueTIS/SoundFont/GeneralUser GS v1.471.sf2</SF2Path>
+    <SF2Path>/Users/lauraroige/Library/Application Support/DefaultCompany/MusiqueTIS/SoundFont/GeneralUser GS SoftSynth v1.44.sf2</SF2Path>
   </ActiveSounFontInfo>
   <MidiFiles>
     <string>dictation</string>
+    <string>waltz</string>
   </MidiFiles>
 </MidiSet>

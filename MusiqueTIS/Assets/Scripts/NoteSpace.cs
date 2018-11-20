@@ -4,95 +4,118 @@ using MidiPlayerTK;
 
 public class NoteSpace : MonoBehaviour
 {
+    public MidiStreamPlayer streamPlayer;
     public MPTKNote note;
     public List<BackgroundTile> backgroundTiles;
     public GameObject noteSprite;
-    private GameObject sprite;
+    private DictationController controller;
+    private GameObject noteObject;
     private float height;
     private Vector2 mousePosition;
     /* isWritten has the position of the written note, or -1 if there's no note in 
      * the noteSpace.
      */
     public float isWritten;
-    public MidiStreamPlayer streamPlayer;
 
     void Start()
     {
         isWritten = -1;
         streamPlayer = FindObjectOfType<MidiStreamPlayer>();
+        controller = FindObjectOfType<DictationController>();
     }
 
     private void OnMouseDown()
     {
         mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         mousePosition = mousePosition - new Vector2(this.transform.position.x, this.transform.position.y);
-        Debug.Log(mousePosition);
-        DrawNote();
+        if (controller.isErasing){
+            EraseNote();
+            controller.isErasing = false;
+        } else
+        {
+            DrawNote();
+
+        }
     }
 
     public void DrawNote()
     {
-        Vector2 position = new Vector2(transform.position.x + (float)0.05, mousePosition[1]);
+        Vector2 position = new Vector2(transform.position.x, mousePosition[1]);
         height = mousePosition[1] - Mathf.Floor(mousePosition[1]);
 
         //Delete note if already written
-        if (sprite != null){
-            Destroy(sprite);
-
-            //Make sure the additional lines are deactivated
-            backgroundTiles[0].GetComponent<Renderer>().enabled = false;
-            backgroundTiles[1].GetComponent<Renderer>().enabled = false;
-            backgroundTiles[7].GetComponent<Renderer>().enabled = false;
-        }
+        EraseNote();
 
         //Define note position
-        if (height < 0.25) {
+        if (height < 0.25)
+        {
             position[1] = Mathf.Floor(position[1]);
         }
-        else if (height >= 0.25 && height < 0.75) {
+        else if (height >= 0.25 && height < 0.75)
+        {
             position[1] = Mathf.Floor(position[1]) + (float)0.5;
         }
-        else {
+        else
+        {
             position[1] = Mathf.Ceil(position[1]);
         }
 
         //Note position in the staff (0 corresponding to G2, 0.5 to A2, etc.)
         isWritten = position[1] + (float)0.5;
-        Debug.Log(isWritten);
 
         //Activate renderer of the tile to add additional line if the note is outside the staff
-        if (isWritten <= 1.5){
+        if (isWritten <= 1.5)
+        {
             backgroundTiles[1].GetComponent<Renderer>().enabled = true;
-        } if (isWritten <= 0.5){
+        }
+        if (isWritten <= 0.5)
+        {
             backgroundTiles[0].GetComponent<Renderer>().enabled = true;
-        } else if (isWritten >= 7.5){
+        }
+        else if (isWritten >= 7.5)
+        {
             backgroundTiles[7].GetComponent<Renderer>().enabled = true;
         }
 
-        //TODO: Crear nota midi
+        //Create midi note
         CreateNote();
 
         /* TODO: Aquí depenent de l'alçada rotarem la nota 
          * potser millor tenir dos sprites diferents (les corxeres i menors canvien)
          */
 
+        //Correccions, no sé per què s'ha desajustat
+        position.y = position.y + this.transform.position.y + (float)0.47;
+        position.x = this.transform.position.x + (float)0.17;
+
         //Instanciem la imatge de la nota
-        position = new Vector2(this.transform.position.x, position.y + this.transform.position.y);
-        sprite = Instantiate(noteSprite, position, Quaternion.identity);
-        sprite.transform.parent = this.transform;
+        noteObject = Instantiate(noteSprite, position, Quaternion.identity);
+        noteObject.transform.parent = this.transform;
+    }
+
+    public void EraseNote(){
+        if (noteObject != null)
+        {
+            Destroy(noteObject);
+
+            //Make sure the additional lines are deactivated
+            backgroundTiles[0].GetComponent<Renderer>().enabled = false;
+            backgroundTiles[1].GetComponent<Renderer>().enabled = false;
+            backgroundTiles[7].GetComponent<Renderer>().enabled = false;
+        }
     }
 
     //Create the MidiNote with its correct pitch and duration.
     public void CreateNote()
     {
-        int length = (int)System.Enum.Parse(typeof(MidiNote.EnumLength), "Quarter");
+        int length = (int)System.Enum.Parse(typeof(MidiNote.EnumLength), "Quarter");//todo
         int pitch;
-        int keySignature = -1; //TODO: passar des de player (o score)
+        int keySignature = controller.keySignature;
         MidiNote midiNote;
 
         pitch = FindPitch((int)(isWritten * 2), keySignature, 0);
 
-        note = new MPTKNote()
+        note = new MPTKNote
         {
             Note = pitch,
             Delay = 0,
@@ -114,21 +137,28 @@ public class NoteSpace : MonoBehaviour
      * keySignature va de -7 a 7 i té el nombre de sostinguts (positius) o bemolls (negatius) de l'armadura
      * noteIndex és la posició de la nota al pentagrama i comença a 0 (G2)
      */
-    private int FindPitch(int noteIndex, int keySignature, int isAltered){
+    private int FindPitch(int noteIndex, int keySignature, int isAltered)
+    {
         int pitch = 24;
         int noteId;
 
         //Primer trobem l'octava en la que estem treballant
-        if (noteIndex <= 2){
+        if (noteIndex <= 2)
+        {
             pitch += 2 * 12;
-        } else if (noteIndex <= 9){
+        }
+        else if (noteIndex <= 9)
+        {
             pitch += 3 * 12;
-        } else {
+        }
+        else
+        {
             pitch += 4 * 12;
         }
 
         //ara definim la nota segons l'índex
-        switch(noteIndex){
+        switch (noteIndex)
+        {
             //C
             case 3:
             case 10:
@@ -181,15 +211,17 @@ public class NoteSpace : MonoBehaviour
         }
 
         //Fem les alteracions de l'armadura
-        List<int> sharps = new List<int>{3, 0, 4, 1, 5, 2, 6};
+        List<int> sharps = new List<int> { 3, 0, 4, 1, 5, 2, 6 };
         noteId = sharps.IndexOf(noteId);
 
         //If keySignature uses sharps and note is altered
-        if(keySignature > 0 && noteId <= (keySignature - 1)){
+        if (keySignature > 0 && noteId <= (keySignature - 1))
+        {
             pitch += 1;
         }
         //If keySignature uses flats and note is altered
-        else if (keySignature < 0 && noteId >= (7 + keySignature)){
+        else if (keySignature < 0 && noteId >= (7 + keySignature))
+        {
             pitch -= 1;
         }
 
